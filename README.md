@@ -25,15 +25,15 @@ for encoding/decoding from file in file:
 **example:**
 
 ```bash
-$ node index -a encode -s 7 -i "./input.txt" -o "./output.txt"
+$ node caesarCipherCLI.js -a encode -s 7 -i "./input.txt" -o "./output.txt"
 ```
 
 ```bash
-$ node index —action encode —shift 7 —input input.txt —output output.txt
+$ node caesarCipherCLI.js —action encode —shift 7 —input input.txt —output output.txt
 ```
 
 ```bash
-$ node index —action decode —shift 7 —input input.txt —output output.txt
+$ node caesarCipherCLI.js —action decode —shift 7 —input input.txt —output output.txt
 ```
 
 > input.txt
@@ -47,7 +47,7 @@ for encoding/decoding from console in file:
 **example**
 
 ```bash
-$ node index —action encode —shift 7 —output output.txt
+$ node caesarCipherCLI.js —action encode —shift 7 —output output.txt
 This is secret. Message about "_" symbol!
 ```
 
@@ -59,7 +59,7 @@ for encoding/decoding from file in console:
 **example**
 
 ```bash
-$ node index —action encode —shift 7 —input input.txt
+$ node caesarCipherCLI.js —action encode —shift 7 —input input.txt
 `Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!`
 ```
 
@@ -71,7 +71,7 @@ for instant encoding without files (throught console) do not use parameters inpu
 **example**
 
 ```bash
-$ node index -s 7 —action encode
+$ node caesarCipherCLI.js -s 7 —action encode
 This is secret. Message about "_" symbol!
 Vjku ku ugetgv. Oguucig cdqwv "_" uaodqn!
 ```
